@@ -10,7 +10,7 @@ const DashboardRoutes = () => {
   return (
     <Drawer.Navigator>
       <Drawer.Screen name="Home" component={Home} />
-      <Drawer.Screen name="SettingsRoutes" component={SettingsRoutes} />
+      <Drawer.Screen name="Settings" component={SettingsRoutes} />
     </Drawer.Navigator>
   );
 };
